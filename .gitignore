@@ -1,2 +1,4 @@
 README_LOCAL
 data_cleaned
+docker/data/jouyou_kanji_grayscale/
+docker/data/kanji_grayscale/
