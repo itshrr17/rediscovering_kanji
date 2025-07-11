@@ -1,9 +1,9 @@
-torch==2.2.0
+torch
 torchvision
 transformers
 scikit-learn
 opencv-python
 Pillow
 matplotlib
-numpy
 jupyterlab
+numpy

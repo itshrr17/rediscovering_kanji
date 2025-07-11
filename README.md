@@ -24,3 +24,27 @@ While some Kanji has logical structure made up of radicals, easy to understand, 
 
 This research will explore with the applicaiton of machine learning and deep learning can be applied to uncover hidden patterns that may exist within Kanji, focusing on radical level Kanji and semantic relationships. The study aims to build a intuitive categorization system, we will cluster the kanji based on visual and meaning similarities. The ultimate goal is to make learning of Kanji easy with the application machine learning.
 
+# Setting up and running docker
+
+### BUILDING IMAGE
+```
+docker build -t rediscovering_k .
+```
+
+
+### RUNNING IMAGE
+```
+docker run -it -p 8888:8888 \
+  -v $(pwd)/notebooks:/app/notebooks \
+  -v $(pwd)/data:/app/data \
+  -v $(pwd)/models:/app/models \
+  rediscovering_k
+```
+
+### START CONTAINER
+```
+jupyter lab --ip=0.0.0.0 --allow-root --no-browser --NotebookApp.token=''
+```
+
+### OPEN NOTEBOOK
+[http://localhost:8888/lab](url:http://localhost:8888/lab)
