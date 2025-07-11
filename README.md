@@ -46,5 +46,10 @@ docker run -it -p 8888:8888 \
 jupyter lab --ip=0.0.0.0 --allow-root --no-browser --NotebookApp.token=''
 ```
 
+```
+docker run -it -p 8888:8888 rediscoverin_k jupyter lab --ip=0.0.0.0 --allow-root --no-browser
+```
+
 ### OPEN NOTEBOOK
 [http://localhost:8888/lab](url:http://localhost:8888/lab)
+
