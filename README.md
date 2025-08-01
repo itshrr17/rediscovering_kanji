@@ -43,11 +43,7 @@ docker run -it -p 8888:8888 \
 
 ### START CONTAINER
 ```
-jupyter lab --ip=0.0.0.0 --allow-root --no-browser --NotebookApp.token=''
-```
-
-```
-docker run -it -p 8888:8888 rediscoverin_k jupyter lab --ip=0.0.0.0 --allow-root --no-browser
+jupyter lab --ip=0.0.0.0 --allow-root --no-browser --NotebookApp.token='9090'
 ```
 
 ### OPEN NOTEBOOK

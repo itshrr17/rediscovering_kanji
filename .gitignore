@@ -5,3 +5,8 @@ docker/data/jouyou/
 docker/data/kanji/
 docker/data/radicals/
 docker/notebooks/patch_features_memmap.npy
+docker/notebooks/kanji_features
+docker/notebooks/kanji_radical_overlay
+docker/notebooks/kanji_visualizations
+docker/notebooks/radical_features
+local/data_raw/kanji
